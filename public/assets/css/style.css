@@ -1,0 +1,153 @@
+body {
+    background: url("../background/grunge_wall/grunge_wall.png");
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+input{
+  background-color: #f8f8f8;
+}
+textarea{
+  background-color: #f8f8f8;
+}
+.navbar{
+	background-color: rgba(33, 33, 33, .2);
+  border-bottom: 2px solid #5e595a; 
+}
+.card-container{
+  margin-top: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgba(33, 33, 33, .3);
+  transition: 0.2s;
+  border-radius: 5px;
+  width: 20rem;
+}
+.card:hover {
+    box-shadow: 5px 16px 26px 5px rgba(0,0,0,0.2);
+}
+.img-btn{
+  width: 80px;
+}
+.msgBox{
+  border: 1px solid #5e595a;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+/*.msgTitle{
+  color: #C11F2D;
+}*/
+.msgEmail{
+  font-size: 14px;
+}
+.msgMessage{
+  font-size: 16px;
+}
+.msgDate{
+  font-size: 12px;
+}
+.msgForm{
+  background-color: rgba(33, 33, 33, .1);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+}
+.allMsgs{
+  background-color: rgba(33, 33, 33, .1);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+}
+.main-container{
+    height: 100%;
+    margin-bottom: 150px;
+}
+.home-title{
+    font-family: 'Trade Winds', cursive;
+    font-size: 50px;
+    color: #D80026;
+    font-weight: bold;
+}
+.tech-title{
+    font-size: 25px;
+}
+.nav-link:hover{
+    font-size: 20px;
+    text-decoration-color: white;
+}
+.intro{
+    font-family: True lies;
+}
+.contact-title{
+    color: red;
+}
+.article{
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.article-p{
+    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    text-indent: 50px;
+    margin-top: 40px;
+}
+.article-left{
+  background-color: rgba(33, 33, 33, .5);
+  border-radius: 5px;
+ /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;*/
+}
+.article-photo{
+  border-radius: 10px 10px 0 0;
+}
+.article-right{
+  background-color: rgba(33, 33, 33, .2);
+  border-radius: 5px;
+/*  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;*/
+}
+.myPicture{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
+.logo-container{
+  padding-top: 15px;
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  
+}
+.footer {
+  border-top: 2px solid #5e595a; 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(33, 33, 33, .5);
+  height: 100px;
+  text-align: center;
+  margin: 0;
+}
+/*.parallax {
+    background-image: url('./../images/header.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
