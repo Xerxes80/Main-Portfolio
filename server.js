@@ -8,7 +8,8 @@ mongoose.Promise = Promise;
  var app = express();
 
 
-var db = process.env.MONGODB_URI || "mongodb://localhost/portfolio";
+// var db = process.env.MONGODB_URI || "mongodb://localhost/portfolio";
+var db = process.env.MONGODB_URI || "mongodb://admin:admin@ds251985.mlab.com:51985/kevin-portfolio";
 
 mongoose.connect(db, function(error) {
 
