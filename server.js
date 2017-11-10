@@ -3,23 +3,23 @@ var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 var Messages = require("./models/messages.js");
-//mongoose.Promise = Promise;
+mongoose.Promise = Promise;
 
  var app = express();
 
 
-// // var db = process.env.MONGODB_URI || "mongodb://localhost/portfolio";
-// var db = process.env.MONGODB_URI || "mongodb://admin:admin@ds251985.mlab.com:51985/kevin-portfolio";
+// var db = process.env.MONGODB_URI || "mongodb://localhost/portfolio";
+var db = process.env.MONGODB_URI || "mongodb://admin:admin@ds251985.mlab.com:51985/kevin-portfolio";
 
-// mongoose.connect(db, function(error) {
+mongoose.connect(db, function(error) {
 
-//  if (error) {
-//    console.log(error);
-//  }
-//  else {
-//    console.log("mongoose connection is successful");
-//  }
-// });
+ if (error) {
+   console.log(error);
+ }
+ else {
+   console.log("mongoose connection is successful");
+ }
+});
 
 
 app.use(express.static("public"));
