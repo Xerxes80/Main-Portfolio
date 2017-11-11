@@ -31,9 +31,7 @@ render: function() {
                             <a href="https://github.com/Xerxes80/Peak-Destinations-Rentals.git" className="card-link" target="blank">
                               <img className="img-btn" src="./assets/logo/github-button.png"/>
                             </a>
-                            <a href="https://github.com/Xerxes80/Peak-Destinations-Rentals.git" className="card-link" target="blank">
-                              <img className="img-btn" src="./assets/logo/heroku-button.png"/>
-                            </a>
+                            
                       
                           </div>
                         </div>
@@ -51,9 +49,7 @@ render: function() {
                             <a href="https://github.com/Xerxes80/NYT-React-Search.git" className="card-link" target="blank">
                               <img className="img-btn" src="./assets/logo/github-button.png"/>
                             </a>
-                            <a href="https://github.com/Xerxes80/NYT-React-Search.git" className="card-link" target="blank">
-                              <img className="img-btn" src="./assets/logo/heroku-button.png"/>
-                            </a>
+                            
                       
                           </div>
                         </div>
@@ -73,7 +69,6 @@ render: function() {
                           
                           <div className="card-body"><hr />
                             <a href="https://github.com/Xerxes80/Hangman-Game.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/github-button.png"/></a>
-                            <a href="https://github.com/Xerxes80/Hangman-Game.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/heroku-button.png"/></a>
                           </div>
                         </div>
                     </div>
@@ -89,7 +84,6 @@ render: function() {
                           
                           <div className="card-body"><hr />
                             <a href="https://github.com/Xerxes80/RPS-Multiplayer.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/github-button.png"/></a>
-                            <a href="https://github.com/Xerxes80/RPS-Multiplayer.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/heroku-button.png"/></a>
                           </div>
                         </div>
                     </div>
@@ -107,7 +101,6 @@ render: function() {
                           
                           <div className="card-body"><hr />
                             <a href="https://github.com/Xerxes80/Hangman-Game.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/github-button.png"/></a>
-                            <a href="https://github.com/Xerxes80/Hangman-Game.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/heroku-button.png"/></a>
                           </div>
                         </div>
                     </div>
@@ -123,19 +116,13 @@ render: function() {
                           
                           <div className="card-body"><hr />
                             <a href="https://github.com/Xerxes80/RPS-Multiplayer.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/github-button.png"/></a>
-                            <a href="https://github.com/Xerxes80/RPS-Multiplayer.git" className="card-link" target="blank"><img className="img-btn" src="./assets/logo/heroku-button.png"/></a>
                           </div>
                         </div>
                     </div>
                 </div>
-
-
-
               </div>
             </div>
           </div>
-        
-      
     </div>
   );
 }
